@@ -24,6 +24,8 @@ Secțiunea de angajament se numește **Efect Garantat 💯**, cu expresiile rele
 
 Tabelul pune în față **rezultatele cu impact și problemele importante rezolvate**, fără criterii banale precum formatul spray sau cantitatea. Wow factor-ul trebuie susținut de produs; „instant” și compatibilitatea universală nu se inventează. **Tabelul complet intră în copy-ul trimis pentru review și aprobare înainte de crearea paginii**, iar în Shopify se transferă numai formulările aprobate.
 
+Se păstrează meniul mobil/taburile și structura template-ului duplicat. Agentul modifică numai elementele existente, fără cod sau elemente suplimentare. **Efect Garantat 💯** apare ca etichetă a butonului/tabului, fără un titlu separat care să o dubleze.
+
 Research-ul este rapid, în stil GPT: agentul citește textul din screenshot, face câteva căutări Google scurte despre problemele și obiecțiile pieței și se oprește imediat ce are baza necesară pentru copy. Nu se face direct pe Alibaba. Agentul verifică suplimentar numai incertitudinile care schimbă mesajul principal și nu inventează dovezi pentru a termina mai repede.
 
 Poza principală este simplă: produsul cu cantitatea verificată vizibilă pe el, fundal relevant și un mesaj mare de 2–3 cuvinte, cu majuscule în albastrul SuperPractic (#2563EB). Pentru un produs fără etichetă, agentul creează o etichetă informativă simplă. Un fundal ÎNAINTE/DUPĂ folosește numai fotografii reale ale rezultatului; în lipsa lor se alege o scenă relevantă. Fișierul final are exact 500 × 500 px și se aprobă înainte de Shopify.
