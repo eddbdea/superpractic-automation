@@ -61,7 +61,14 @@ Prezintă întregul copy într-o versiune completă: nume, titlu, beneficii scur
 
 ## Imaginea principală
 
-Generează tu numai imaginea principală mare, cu fișierul final de exact 500 × 500 pixeli, raport 1:1. Folosește fotografiile reale ca referință pentru identitatea și forma produsului. Nu inventa ambalaje, accesorii, cantități, branduri sau rezultate. Compoziția pune în prim-plan produsul și beneficiul principal susținut. Verifică textul românesc, diacriticele și lizibilitatea la dimensiunea finală, inclusiv pe mobil.
+Generează tu numai imaginea principală mare, cu fișierul final de exact 500 × 500 pixeli, raport 1:1. Compoziția trebuie să fie simplă, cu următoarele elemente:
+
+1. **Produsul real, dominant.** Folosește fotografia reală ca referință și păstrează forma, culoarea, marca și ambalajul. Cantitatea verificată (ml, g, bucăți etc.) trebuie să fie lizibilă pe produs. Dacă pe eticheta existentă nu se vede, adaugă discret un marcaj grafic informativ pe produs, fără a acoperi informațiile originale.
+2. **Etichetă simplă numai când lipsește.** Dacă produsul nu are etichetă, creează o etichetă grafică simplă cu numele/funcția și cantitatea confirmate. Această etichetă informativă este permisă; nu inventa identitatea producătorului, certificări, ingrediente, cantități sau caracteristici și nu înlocui eticheta reală a unui produs de marcă. Dacă o cantitate esențială nu este cunoscută, cere confirmarea înainte de a o scrie.
+3. **Fundal care susține produsul.** Alege fie fotografii reale ÎNAINTE/DUPĂ ale rezultatului demonstrat pentru produs, fie o scenă relevantă pentru problema sau utilizarea lui. Dacă nu există fotografii reale potrivite, folosește scena relevantă. O scenă generată poate ilustra contextul; nu o prezenta ca dovadă reală, test sau rezultat înainte/după.
+4. **Un singur mesaj mare.** Scrie un slogan de 2–3 cuvinte cu MAJUSCULE, în albastrul SuperPractic. Poate exprima un beneficiu-cheie sau problema importantă pe care produsul o rezolvă, fără exagerări ori rezultate inventate. Accentul albastru identificat în tema salvată este **#2563EB**; folosește-l ca referință până la o instrucțiune de brand diferită a proprietarului. Asigură contrast, spațiu și lizibilitate; evită listele lungi și elementele care aglomerează.
+
+Verifică fidelitatea produsului, cantitatea, textul românesc, diacriticele și lizibilitatea la dimensiunea finală, inclusiv pe mobil. Nu inventa accesorii sau rezultate.
 
 Folosește capabilitatea de generare/editare de imagini, nu doar un prompt pe care proprietarul să-l execute. Dacă generatorul produce o imagine mai mare, exportă o copie redimensionată la 500 × 500, fără deformarea produsului, și verifică dimensiunile fișierului. Aprobarea și încărcarea Shopify se referă la această versiune finală; nu afirma că fișierul are 500 × 500 doar pentru că ai cerut dimensiunea în prompt. Dacă generarea sau exportul nu sunt disponibile, explică lipsa capabilității fără să pretinzi că ai creat fișierul.
 

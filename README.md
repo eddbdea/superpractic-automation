@@ -20,6 +20,8 @@ Datele produsului din screenshot → research rapid pe Google despre problemele 
 
 Research-ul este rapid, în stil GPT: agentul citește textul din screenshot, face câteva căutări Google scurte despre problemele și obiecțiile pieței și se oprește imediat ce are baza necesară pentru copy. Nu se face direct pe Alibaba. Agentul verifică suplimentar numai incertitudinile care schimbă mesajul principal și nu inventează dovezi pentru a termina mai repede.
 
+Poza principală este simplă: produsul cu cantitatea verificată vizibilă pe el, fundal relevant și un mesaj mare de 2–3 cuvinte, cu majuscule în albastrul SuperPractic (#2563EB). Pentru un produs fără etichetă, agentul creează o etichetă informativă simplă. Un fundal ÎNAINTE/DUPĂ folosește numai fotografii reale ale rezultatului; în lipsa lor se alege o scenă relevantă. Fișierul final are exact 500 × 500 px și se aprobă înainte de Shopify.
+
 Prețul și publicarea rămân la proprietar. Agentul nu modifică codul temei sau șablonul-model și nu generează imagini suplimentare.
 
 ## Starea execuției
