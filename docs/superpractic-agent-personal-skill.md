@@ -1,6 +1,6 @@
 ---
 name: superpractic-agent
-description: Folosește acest skill când utilizatorul trimite START LP sau cere explicit research și landing page SuperPractic. Cere screenshot-ul furnizorului, face research detaliat și copy educativ, generează numai imaginea principală 500x500 după aprobarea textului și creează draft Shopify după aprobarea imaginii, dacă are acces verificat.
+description: Folosește acest skill când utilizatorul trimite START LP sau cere explicit research și landing page SuperPractic. Cere screenshot-ul furnizorului, face research rapid pe Google despre problemele cumpărătorilor și copy educativ, generează numai imaginea principală 500x500 după aprobarea textului și creează draft Shopify după aprobarea imaginii, dacă are acces verificat.
 ---
 
 # SuperPractic Agent
@@ -41,7 +41,9 @@ Fiecare sarcină cloud este deja izolată. Folosește checkout-ul existent; nu c
 
 - Pagina urmărește conversia prin educare: explică problema, mecanismul, beneficiul și folosirea în limbaj foarte simplu, ușor de înțeles chiar și de un copil, cu un ton firesc pentru adult. Detaliile tehnice sunt relevante, verificate și explicate pe loc, pentru încredere.
 - Inputul principal este o fotografie/screenshot. Nu inventa modelul, specificațiile sau pachetul din imagine. Cere numai informația necesară și continuă independent research-ul categoriei.
-- Research-ul detaliat folosește surse datate și semnale recente despre cumpărători. Livrează trei liste: pain points în ordinea importanței/gravitații, beneficii în ordinea importanței și cum se folosește. Separă faptele, experiențele cumpărătorilor și ipotezele.
+- Preia informațiile produsului din screenshot-ul furnizorului. Nu face research direct pe Alibaba și nu pierde timp accesând paginile furnizorului. Nu transforma afirmațiile din screenshot în performanțe confirmate independent.
+- Fă research rapid pe Google despre problemele cumpărătorilor, experiențe, obiecții și soluții existente în piață. Folosește de regulă 2–4 căutări țintite și 3–5 surse utile, preferând România și semnale recente. Oprește căutarea când ai informații suficiente pentru alegerea beneficiilor și scrierea textului; extinde numai pentru o incertitudine importantă. Nu amâna copy-ul pentru parametri neclari care pot fi omiși. Nu sacrifica verificarea și nu inventa surse pentru a respecta un număr sau o durată.
+- Livrează trei liste concise: pain points în ordinea importanței/gravitații, beneficii în ordinea importanței și cum se folosește. Separă faptele, experiențele cumpărătorilor și ipotezele și citează sursele efectiv consultate. Nu numi o problemă „hot” fără dovezi recente.
 - Modelele editoriale sunt numai produse fără SKU TEST-01. Verifică toate variantele: dacă una are TEST-01, exclude întregul produs. Corpusul aprobat este PowerMax, UltraX, CurățăPVC, LaPedală, Molistop și kitul cu abur. ReFilet, TurboBlast și paginile cu texte moștenite greșit nu sunt modele de copy.
 - Descrierea are normal 4 și maximum 5 headlines explicative, în funcție de beneficiile distincte susținute. Nu umple artificial cinci blocuri. Blocul de folosire intră în limită.
 - Prezintă tot textul și cere aprobarea explicită a versiunii curente. Orice revizie a textului anulează aprobarea textului vechi.
@@ -75,7 +77,7 @@ Nu plasa comenzi reale. Păstrează identificatorii produsului/șablonului și v
 
 Comanda de pornire este `START LP`. La această comandă, dacă fotografia nu este deja atașată lucrării curente, cere mai întâi un screenshot de la furnizor cu produsul și informațiile lui: nume/model, specificații și conținutul pachetului. Acceptă mai multe screenshots și așteaptă materialele înainte de a începe research-ul. Cererea de fotografie se face în conversație; nu solicita prețul. Dacă fotografia este deja atașată, continuă direct și cere numai informațiile esențiale care lipsesc sau sunt ilizibile.
 
-Primești o fotografie sau un screenshot al produsului de la proprietar. Poți primi și un link de furnizor, fotografii suplimentare, fișă tehnică și instrucțiuni. Fotografia este suficientă pentru a începe identificarea și research-ul categoriei; nu este suficientă pentru a inventa modelul, performanța, cantitatea inclusă ori compatibilitatea exactă.
+Primești o fotografie sau un screenshot al produsului de la proprietar. Preia din imagine informațiile produsului: model, caracteristici vizibile, specificații declarate și accesorii ilustrate. Poți primi și fotografii suplimentare, fișă tehnică și instrucțiuni. Nu face research direct pe Alibaba și nu pierde timp accesând paginile furnizorului; screenshot-ul este intrarea pentru produs, iar Google este punctul de pornire pentru research-ul pieței. Fotografia nu este suficientă pentru a inventa performanța, cantitatea inclusă ori compatibilitatea exactă.
 
 Livrezi research-ul, apoi numele și textul paginii și, după aprobarea textului, generezi tu numai imaginea principală de lângă zona de cumpărare, cu fișierul final de exact 500 × 500 pixeli. După aprobarea imaginii, agentul poate folosi API-ul Shopify autentificat din mediul Codex pentru produsul draft și configurarea șablonului. Nu setezi prețuri și nu publici.
 
@@ -83,11 +85,15 @@ Livrezi research-ul, apoi numele și textul paginii și, după aprobarea textulu
 
 Folosește `docs/copy-analysis.md` și numai paginile care nu au SKU TEST-01. Corpusul editorial verificat: PowerMax, UltraX, CurățăPVC, LaPedală, Molistop și kitul cu abur. ReFilet și TurboBlast sunt excluse. Lavetele și degresantul fără descriere sunt excluse ca modele deoarece moștenesc texte ChefSlicer nepotrivite.
 
-## Research detaliat, înainte de copy
+## Research rapid și concentrat, înainte de copy
+
+Ținta este o fișă utilă pentru copy, realizată cât mai repede fără afirmații inventate. Fă de regulă 2–4 căutări Google țintite și consultă 3–5 surse relevante: probleme/experiențe ale cumpărătorilor, obiecții la categoria de produs și soluții încercate. Preferă piața românească; completează în engleză când informația locală nu ajunge. Aceste numere sunt repere, nu cote de completat artificial.
+
+Oprește căutarea când poți ordona problemele și beneficiile, explica mecanismul și redacta textul cu dovezi suficiente. Extinde numai pentru o contradicție importantă care schimbă beneficiul sau folosirea. O specificație neclară care nu este esențială poate fi omisă din copy, fără a bloca restul procesului. Dacă accesul web este blocat, raportează lipsa surselor; nu prezenta presupunerile ca research finalizat. Nu introduce o nouă aprobare obligatorie pentru research.
 
 1. Identifică produsul și marchează gradul de certitudine. Separă ce este vizibil în fotografie, ce susține furnizorul și ce este confirmat independent. Dacă sunt mai multe variante posibile, cere informația necesară pentru alegerea modelului; continuă research-ul categoriei între timp.
 2. Identifică oamenii care ar cumpăra produsul, contextul în care îl folosesc, momentul care declanșează nevoia, soluțiile încercate și motivul pentru care acestea frustrează cumpărătorul.
-3. Caută semnale actuale: review-uri relevante, discuții de cumpărători, întrebări și experiențe, comparații, informații ale producătorilor și surse independente. Preferă surse din România sau relevante pieței românești. Când folosești alte piețe, explică limitele transferului.
+3. Caută pe Google semnale actuale despre problemele oamenilor: review-uri relevante, discuții de cumpărători, întrebări și experiențe, obiecții și comparații între soluții. Preferă surse din România sau relevante pieței românești. Când folosești alte piețe, explică limitele transferului. Căutarea urmărește piața și cumpărătorul, nu copierea reclamei furnizorului.
 4. Pentru „hot pain points”, favorizează semnale recente, de regulă din ultimele 12 luni, mai recente când sunt disponibile. Păstrează data publicării și data verificării. Sursele vechi pot susține mecanismul sau probleme persistente, fără să fie numite tendințe actuale. Nu afirma că ceva este în creștere doar fiindcă ai găsit o postare recentă.
 5. Nu confunda frecvența mențiunilor dintr-un eșantion cu prevalența în populație. Validează problema prin surse diferite când sunt disponibile; o discuție virală sau o reclamă nu demonstrează singură că un pain point este prioritar.
 6. Cercetează beneficiile, limitele, contraindicațiile relevante, compatibilitatea, ce include pachetul și folosirea corectă. Folosește documentația modelului exact pentru specificații și manual; nu transfera performanța unui dispozitiv similar.
@@ -96,7 +102,7 @@ Folosește `docs/copy-analysis.md` și numai paginile care nu au SKU TEST-01. Co
 
 ## Fișa de produs — format obligatoriu
 
-Începe cu identificarea produsului, publicul, sursele și data research-ului. Apoi prezintă exact cele trei liste cerute:
+Începe cu identificarea produsului, publicul, sursele și data research-ului. Prezintă concis concluziile utile pentru landing page, fără un raport lung care întârzie textul. Apoi prezintă exact cele trei liste cerute:
 
 ### 1. Pain points rezolvate, în ordinea importanței și gravității
 

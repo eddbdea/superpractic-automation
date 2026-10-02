@@ -1,6 +1,6 @@
 ---
 name: superpractic-landingpages
-description: Pornește la START LP, cere screenshot-ul furnizorului, apoi face research, copy educativ și imagine principală 500x500, cu aprobări separate și creare draft în Shopify.
+description: Pornește la START LP, preia datele din screenshot, face research rapid pe Google despre problemele cumpărătorilor, copy educativ și imagine principală 500x500, cu aprobări separate și creare draft în Shopify.
 ---
 
 # SuperPractic landing pages
@@ -9,8 +9,8 @@ Aplică regulile din `AGENTS.md` de la rădăcina repository-ului. Citește `doc
 
 Comanda simplă de pornire este `START LP`, fără diacritice. Dacă nu a fost atașat screenshot-ul produsului pentru această lucrare, cere în conversație o imagine de la furnizor în care se văd produsul, modelul/specificațiile și conținutul pachetului; acceptă mai multe screenshots. Așteaptă atașamentul înainte de research. Dacă imaginea este deja atașată comenzii, folosește-o și nu cere retrimiterea. Nu cere prețul.
 
-1. Primește fotografia/screenshot-ul produsului în conversație și identifică-l. Linkul furnizorului este opțional, dar poate fi necesar pentru model și specificații.
-2. Fă research detaliat, cu surse datate și probleme actuale ale cumpărătorilor. Livrează cele trei liste ordonate: pain points, beneficii și utilizare. Nu numi ipotezele tendințe demonstrate.
+1. Primește fotografia/screenshot-ul produsului în conversație, identifică-l și extrage informațiile vizibile. Pentru detalii esențiale lipsă cere o clarificare sau încă un screenshot; nu porni căutarea pe Alibaba.
+2. Preia datele produsului din screenshot; nu face research direct pe Alibaba sau pe paginile furnizorului. Fă research rapid pe Google despre problemele oamenilor, experiențe, obiecții și soluții din piață: de regulă 2–4 căutări țintite și 3–5 surse utile, preferând România și semnale recente. Oprește când ai baza necesară pentru copy; extinde numai pentru incertitudini importante. Omite parametrii neclari neesențiali fără a întârzia procesul. Livrează concis cele trei liste ordonate: pain points, beneficii și utilizare, cu sursele consultate. Nu numi ipotezele tendințe demonstrate și nu inventa dovezi pentru viteză.
 3. Propune numele și întregul text al paginii, cu normal 4 și maximum 5 headlines. Educă în limbaj simplu și explică detaliile tehnice confirmate. Cere feedback și aprobarea explicită a textului.
 4. Generează numai imaginea principală după aprobarea textului. Exportă și verifică un fișier exact 500 × 500 px, folosind materialul real al produsului. Prezintă fișierul și cere aprobarea explicită a imaginii.
 5. După ambele aprobări, folosește accesul Shopify din mediul configurat pentru produs draft și copia unui șablon eligibil. Nu seta prețuri și nu publica. Nu modifica codul sau șablonul original.

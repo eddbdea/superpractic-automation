@@ -14,7 +14,9 @@ Poți adăuga linkul furnizorului și instrucțiuni. Pentru alt produs, începe 
 
 ## Ce face agentul
 
-Research → text educativ pentru conversie, cu maximum 4–5 headlines → aprobarea textului → generarea unei singure imagini principale de exact 500 × 500 → aprobarea imaginii → produs draft și șablon nou în Shopify.
+Datele produsului din screenshot → research rapid pe Google despre problemele și obiecțiile cumpărătorilor → text educativ pentru conversie, cu maximum 4–5 headlines → aprobarea textului → generarea unei singure imagini principale de exact 500 × 500 → aprobarea imaginii → produs draft și șablon nou în Shopify.
+
+Research-ul folosește de regulă 2–4 căutări țintite și 3–5 surse utile. Nu se face direct pe Alibaba. Agentul se oprește când are baza necesară pentru copy și verifică suplimentar numai incertitudinile importante; nu inventează dovezi pentru a termina mai repede.
 
 Prețul și publicarea rămân la proprietar. Agentul nu modifică codul temei sau șablonul-model și nu generează imagini suplimentare.
 
