@@ -13,7 +13,7 @@ Pornește fluxul pentru comanda START LP, fără diacritice, ignorând spațiile
 
 Dacă nu există un screenshot al furnizorului pentru lucrarea curentă, primul răspuns cere screenshot-ul produsului, modelul/specificațiile și conținutul pachetului. Așteaptă atașamentul. Nu cere prețul. Dacă screenshot-ul este deja atașat, folosește-l.
 
-La etapa Shopify, folosește numai instrumente disponibile efectiv și acces autorizat la b77w9x-rx.myshopify.com. Credențialele rămân în mediul securizat. Verifică autentificarea și permisiunile; o mențiune în instrucțiuni nu furnizează credențiale sau acces. Dacă mediul sau operația lipsește, păstrează rezultatele aprobate și raportează exact blocajul, fără să pretinzi că produsul a fost creat. Nu cere parole sau tokenuri în chat. Dacă este disponibil checkout-ul configurat, verificarea fără scriere este python3 tools/check_shopify_connection.py din rădăcina proiectului.
+Numai după aprobarea întregului copy și a imaginii principale, la etapa Shopify, folosește instrumente disponibile efectiv și acces autorizat la b77w9x-rx.myshopify.com. Credențialele rămân în mediul securizat. Verifică autentificarea și permisiunile; o mențiune în instrucțiuni nu furnizează credențiale sau acces. Dacă mediul sau operația lipsește, păstrează rezultatele aprobate și raportează exact blocajul, fără să pretinzi că produsul a fost creat. Nu cere parole sau tokenuri în chat. Dacă este disponibil checkout-ul configurat, verificarea fără scriere este python3 tools/check_shopify_connection.py din rădăcina proiectului.
 
 ## Reguli ale agentului
 
@@ -44,12 +44,13 @@ Fiecare sarcină cloud este deja izolată. Folosește checkout-ul existent; nu c
 - Preia informațiile produsului din screenshot-ul furnizorului. Nu face research direct pe Alibaba și nu pierde timp accesând paginile furnizorului. Nu transforma afirmațiile din screenshot în performanțe confirmate independent.
 - Fă research rapid, în stil GPT: citește textul din screenshot, apoi folosește Google doar pentru a înțelege rapid problemele, experiențele și obiecțiile pieței. Ținta este viteza cu judecată, nu un raport lung: pornește de la 1–3 căutări scurte și câteva surse utile, preferând România și semnale recente. Oprește imediat ce ai baza necesară pentru pain points, beneficii și copy; extinde numai pentru o incertitudine care schimbă mesajul principal. Nu amâna copy-ul pentru parametri neclari care pot fi omiși. Nu inventa surse, cifre sau tendințe pentru viteză.
 - Livrează trei liste concise: pain points în ordinea importanței/gravitații, beneficii în ordinea importanței și cum se folosește. Separă faptele, experiențele cumpărătorilor și ipotezele și citează sursele efectiv consultate. Nu numi o problemă „hot” fără dovezi recente.
-- Modelele editoriale sunt numai produse fără SKU TEST-01. Verifică toate variantele: dacă una are TEST-01, exclude întregul produs. Corpusul aprobat este PowerMax, UltraX, CurățăPVC, LaPedală, Molistop și kitul cu abur. ReFilet, TurboBlast și paginile cu texte moștenite greșit nu sunt modele de copy.
+- Modelele editoriale sunt numai produse fără SKU TEST-01. În research și copy folosește corpusul verificat salvat în proiect, fără recitirea catalogului Shopify. La alegerea modelului în etapa Shopify verifică toate variantele: dacă una are TEST-01, exclude întregul produs. Corpusul aprobat este PowerMax, UltraX, CurățăPVC, LaPedală, Molistop și kitul cu abur. ReFilet, TurboBlast și paginile cu texte moștenite greșit nu sunt modele de copy.
 - Descrierea are normal 4 și maximum 5 headlines explicative, în funcție de beneficiile distincte susținute. Nu umple artificial cinci blocuri. Blocul de folosire intră în limită.
-- Prezintă tot textul și cere aprobarea explicită a versiunii curente. Orice revizie a textului anulează aprobarea textului vechi.
+- Stabilește întregul copy în conversația produsului: nume, titlu, beneficii scurte, toate headlines și paragrafele, „Angajamentul Nostru” și „De ce [nume]?”. Prezintă versiunea completă și cere aprobarea explicită. Orice revizie a textului anulează aprobarea textului vechi.
+- În etapa de research și revizuire a copy-ului, folosește referințele salvate în proiect; nu accesa Shopify și nu rula verificări de conexiune, citiri de catalog/teme sau pregătiri de produs/șablon. Etapa Shopify începe numai după finalizarea și aprobarea întregului copy și aprobarea imaginii principale.
 - După aprobarea textului, generează tu numai imaginea principală de lângă zona de cumpărare. Folosește capabilitatea de generare/editare a imaginilor și fotografia reală ca referință. Fișierul final trebuie să aibă exact 500 × 500 px, cu dimensiunile și lizibilitatea verificate. Exportul/redimensionarea la dimensiunea cerută este permis, fără deformarea produsului. Nu genera alte imagini, GIF-uri sau videoclipuri.
 - Prezintă imaginea și cere aprobarea explicită a fișierului final. Dacă se schimbă numele sau un text/beneficiu din imagine, actualizeaz-o și cere din nou aprobarea.
-- Creează în Shopify numai după ambele aprobări. Folosește un produs draft, un șablon nou bazat pe un model eligibil și numai imaginea principală aprobată. Nu seta/copia prețuri, prețuri de referință sau reduceri. Nu publica.
+- După ambele aprobări, creează tu pagina în Shopify: produs draft, șablon nou bazat pe un model eligibil, întregul copy aprobat și numai imaginea principală aprobată. Atribuie șablonul noului produs și verifică rezultatul. Nu cere încă o confirmare generică pentru a începe implementarea deja autorizată. Nu seta/copia prețuri, prețuri de referință sau reduceri. Nu publica.
 - Nu modifica produsul-model, șablonul original, Liquid, CSS, JavaScript sau setările globale. Configurarea este limitată la copia șablonului și datele produsului nou. Curăță numele, beneficiile, imaginile și referințele vechiului produs din copia nouă.
 - Nu inventa recenzii, numere de clienți, date tehnice, rezultate, promisiuni de livrare sau garanții.
 - Nu ai acces automat la celelalte chaturi din contul ChatGPT. Utilizează numai conversația curentă și materialele pe care proprietarul le furnizează.
@@ -58,7 +59,7 @@ Fiecare sarcină cloud este deja izolată. Folosește checkout-ul existent; nu c
 
 Magazinul autorizat este `b77w9x-rx.myshopify.com`. Credențialele sunt în mediul cloud, nu în repository. Inspectează numai prezența/starea lor și nu afișa valori. Nu solicita parole sau tokenuri în conversație. Păstrează proxy-ul și verificarea TLS.
 
-Verificare fără scriere:
+Verificare fără scriere, numai la etapa Shopify după aprobarea întregului copy și a imaginii principale:
 
 ```bash
 python3 tools/check_shopify_connection.py
@@ -79,7 +80,7 @@ Comanda de pornire este `START LP`. La această comandă, dacă fotografia nu es
 
 Primești o fotografie sau un screenshot al produsului de la proprietar. Preia din imagine informațiile produsului: model, caracteristici vizibile, specificații declarate și accesorii ilustrate. Poți primi și fotografii suplimentare, fișă tehnică și instrucțiuni. Nu face research direct pe Alibaba și nu pierde timp accesând paginile furnizorului; screenshot-ul este intrarea pentru produs, iar Google este punctul de pornire pentru research-ul pieței. Fotografia nu este suficientă pentru a inventa performanța, cantitatea inclusă ori compatibilitatea exactă.
 
-Livrezi research-ul, apoi numele și textul paginii și, după aprobarea textului, generezi tu numai imaginea principală de lângă zona de cumpărare, cu fișierul final de exact 500 × 500 pixeli. După aprobarea imaginii, agentul poate folosi API-ul Shopify autentificat din mediul Codex pentru produsul draft și configurarea șablonului. Nu setezi prețuri și nu publici.
+Livrezi research-ul, apoi stabilești întregul copy în conversație. În aceste etape folosești referințele locale salvate; nu accesezi Shopify, nu rulezi verificări de conexiune și nu citești catalogul/temele sau pregătești produse/șabloane. După aprobarea întregului text, generezi tu numai imaginea principală de lângă zona de cumpărare, cu fișierul final de exact 500 × 500 pixeli. Numai după aprobarea imaginii intri în Shopify și creezi tu pagina, ca produs draft cu un șablon nou atribuit. Nu setezi prețuri și nu publici.
 
 ## Modele de copy
 
@@ -130,7 +131,7 @@ Propune numele, titlul și 3–4 beneficii scurte lângă produs. Descrierea are
 
 Ordinea pleacă de la problema principală și rezultatul cel mai valoros; urmează reducerea unei consecințe/efortului și beneficii secundare relevante. Folosește română naturală, verbe concrete, emoji relevante, unul sau două enunțuri per bloc și bold pe expresii scurte. Adaptează textul din „Angajamentul Nostru” și cele patru criterii din „De ce [nume]?”. Nu adăuga afirmații noi neverificate în aceste secțiuni.
 
-Întreabă explicit: „Păstrăm această variantă de text sau ce vrei să modificăm?” Revizuiește și cere aprobarea versiunii curente. Nu genera imaginea și nu crea produsul înainte de aprobarea textului.
+Prezintă întregul copy într-o versiune completă: nume, titlu, beneficii scurte, toate headlines și paragrafele, „Angajamentul Nostru” și „De ce [nume]?”. Întreabă explicit: „Păstrăm această variantă de text sau ce vrei să modificăm?” Revizuiește aici, în conversație, și cere aprobarea versiunii complete curente. Orice revizie anulează aprobarea textului vechi. Nu genera imaginea înainte de această aprobare și nu începe etapa Shopify până când și imaginea este aprobată.
 
 ## Imaginea principală
 
@@ -142,7 +143,7 @@ Folosește capabilitatea de generare/editare de imagini, nu doar un prompt pe ca
 
 ## Shopify și limitele execuției
 
-După aprobările pentru text și imagine, creează numai un produs draft printr-un serviciu/API autentificat disponibil. Duplică un șablon aprobat din corpusul eligibil, completează conținutul și atribuie șablonul noului produs. Nu modifica șablonul original, Liquid, CSS, JavaScript sau setări globale. Copierea/configurarea șablonului JSON necesită acces API efectiv verificat; permisiunea `write_themes` singură nu dovedește succesul scrierii.
+Începe lucrul în Shopify numai după finalizarea și aprobarea întregului copy și aprobarea imaginii principale. Atunci verifică accesul și creează tu un produs draft prin serviciul/API-ul autentificat disponibil. Duplică un șablon aprobat din corpusul eligibil, completează întregul copy aprobat, încarcă imaginea aprobată și atribuie șablonul noului produs. Continuă implementarea deja autorizată fără încă o confirmare generică de pornire. Nu modifica șablonul original, Liquid, CSS, JavaScript sau setări globale. Copierea/configurarea șablonului JSON necesită acces API efectiv verificat; permisiunea `write_themes` singură nu dovedește succesul scrierii.
 
 Nu seta/copia prețuri sau reduceri. Nu publica. Încarcă numai imaginea principală aprobată. Elimină conținutul irelevant moștenit de la model; dacă alte blocuri necesită media, folosește numai media reale aprobate sau omite blocurile, fără generare suplimentară. Verifică metafields, referințe de produs și CTA-uri pentru a evita legături cu produsul-model.
 
@@ -154,7 +155,7 @@ Nu pretinde acces la alte conversații ChatGPT. Folosește numai conversația cu
 
 Proprietarul atașează fotografia în sarcina Codex a produsului. Folosește regulile proiectului din AGENTS.md și skill-ul local; nu este necesară crearea unui GPT sau găzduirea unui serviciu Actions pentru acest flux.
 
-Folosește checkout-ul existent din mediul izolat, fără worktree nou decât la cerere. Verifică prezența/starea credențialelor din mediul cloud fără a afișa valori. Testul de conexiune este python3 tools/check_shopify_connection.py, din rădăcina repository-ului.
+Folosește checkout-ul existent din mediul izolat, fără worktree nou decât la cerere. Numai la etapa Shopify, după ambele aprobări, verifică prezența/starea credențialelor din mediul cloud fără a afișa valori. Testul de conexiune este python3 tools/check_shopify_connection.py, din rădăcina repository-ului.
 
 Nu presupune că o sarcină nouă vede alte conversații sau aprobări vechi. Instrucțiunile se păstrează în repository/snapshot, iar execuția Shopify folosește mediul selectat. Publicarea snapshot-ului și restaurarea unei sarcini noi sunt operații separate de salvarea acestor fișiere.
 

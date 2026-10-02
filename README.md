@@ -16,6 +16,8 @@ Poți adăuga linkul furnizorului și instrucțiuni. Pentru alt produs, începe 
 
 Datele produsului din screenshot → research rapid pe Google despre problemele și obiecțiile cumpărătorilor → text educativ pentru conversie, cu maximum 4–5 headlines → aprobarea textului → generarea unei singure imagini principale de exact 500 × 500 → aprobarea imaginii → produs draft și șablon nou în Shopify.
 
+Întregul copy se stabilește și se revizuiește în conversație. Agentul începe lucrul în Shopify numai după aprobarea versiunii complete a textului și a imaginii principale; până atunci folosește exemplele salvate în proiect, fără teste de conexiune sau citiri din Shopify. După aprobări creează singur produsul draft, completează pagina și atribuie șablonul duplicat, fără încă o confirmare generică de implementare.
+
 Research-ul este rapid, în stil GPT: agentul citește textul din screenshot, face câteva căutări Google scurte despre problemele și obiecțiile pieței și se oprește imediat ce are baza necesară pentru copy. Nu se face direct pe Alibaba. Agentul verifică suplimentar numai incertitudinile care schimbă mesajul principal și nu inventează dovezi pentru a termina mai repede.
 
 Prețul și publicarea rămân la proprietar. Agentul nu modifică codul temei sau șablonul-model și nu generează imagini suplimentare.
@@ -26,4 +28,4 @@ Regulile și referințele sunt salvate local în acest checkout. Shopify este co
 
 Instrucțiunile proiectului sunt versionate pe ramura `main`. Pentru o sarcină nouă, selectează repository-ul `eddbdea/superpractic-automation`, ramura `main` și mediul cloud cu Shopify configurat. Salvarea configurației draft nu publică snapshot-ul: folosește Save and publish în onboarding pentru activarea modificărilor mediului. Pornirea unei sarcini noi trebuie verificată separat; nu este confirmată doar prin salvarea configurației sau prin existența fișierelor pe GitHub.
 
-Pentru diagnosticarea conexiunii, rulează `python3 tools/check_shopify_connection.py`. Nu sunt necesare pachete Python externe; scriptul folosește biblioteca standard și credențialele din mediul cloud.
+La etapa Shopify, după ambele aprobări, pentru diagnosticarea conexiunii rulează `python3 tools/check_shopify_connection.py`. Nu sunt necesare pachete Python externe; scriptul folosește biblioteca standard și credențialele din mediul cloud.
