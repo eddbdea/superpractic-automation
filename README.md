@@ -22,6 +22,8 @@ Beneficiile imediat sub numele produsului au fiecare emoji în față și nu se 
 
 Secțiunea de angajament se numește **Efect Garantat 💯**, cu expresiile relevante din text evidențiate cu bold. **De ce [NumeProdus]? 👀** are dedesubt exact două propoziții scurte despre esența produsului, cu bold pe elementele importante. Beneficiile din tabel sunt scurte, integral cu bold, fiecare cu emoji în față, fără explicații suplimentare sau punct la final. Aceste reguli se aplică și viitoarelor workflow-uri.
 
+Tabelul pune în față **rezultatele cu impact și problemele importante rezolvate**, fără criterii banale precum formatul spray sau cantitatea. Wow factor-ul trebuie susținut de produs; „instant” și compatibilitatea universală nu se inventează. **Tabelul complet intră în copy-ul trimis pentru review și aprobare înainte de crearea paginii**, iar în Shopify se transferă numai formulările aprobate.
+
 Research-ul este rapid, în stil GPT: agentul citește textul din screenshot, face câteva căutări Google scurte despre problemele și obiecțiile pieței și se oprește imediat ce are baza necesară pentru copy. Nu se face direct pe Alibaba. Agentul verifică suplimentar numai incertitudinile care schimbă mesajul principal și nu inventează dovezi pentru a termina mai repede.
 
 Poza principală este simplă: produsul cu cantitatea verificată vizibilă pe el, fundal relevant și un mesaj mare de 2–3 cuvinte, cu majuscule în albastrul SuperPractic (#2563EB). Pentru un produs fără etichetă, agentul creează o etichetă informativă simplă. Un fundal ÎNAINTE/DUPĂ folosește numai fotografii reale ale rezultatului; în lipsa lor se alege o scenă relevantă. Fișierul final are exact 500 × 500 px și se aprobă înainte de Shopify.
