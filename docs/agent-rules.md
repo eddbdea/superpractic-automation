@@ -55,11 +55,15 @@ Păstrează suficiente detalii tehnice pentru încredere, numai când sunt confi
 
 Propune numele, titlul și 3–4 beneficii scurte lângă produs. Descrierea are normal 4 și maximum 5 headlines, alese după beneficiile distincte susținute. Nu umple artificial cinci secțiuni. Headline-ul despre utilizare, dacă există, intră în limită.
 
-Fiecare beneficiu imediat sub numele produsului trebuie să înceapă cu un emoji relevant și un spațiu, fără punct la final. Aplică aceeași formatare în copy-ul aprobat și în setarea nativă de beneficii a șablonului. Criteriile din tabelul „De ce [nume]?” trebuie să aibă și ele emoji în față.
+Fiecare beneficiu imediat sub numele produsului trebuie să înceapă cu un emoji relevant și un spațiu, fără punct la final. Aplică aceeași formatare în copy-ul aprobat și în setarea nativă de beneficii a șablonului.
 
-Ordinea pleacă de la problema principală și rezultatul cel mai valoros; urmează reducerea unei consecințe/efortului și beneficii secundare relevante. Folosește română naturală, verbe concrete, emoji relevante, unul sau două enunțuri per bloc și bold pe expresii scurte. Adaptează textul din „Angajamentul Nostru” și cele patru criterii din „De ce [nume]?”. Nu adăuga afirmații noi neverificate în aceste secțiuni.
+Secțiunea de angajament se numește **„Efect Garantat 💯”**. Evidențiază cu bold expresiile relevante din text, fără promisiuni de rezultate universale, garanții sau condiții comerciale inventate.
 
-Prezintă întregul copy într-o versiune completă: nume, titlu, beneficii scurte, toate headlines și paragrafele, „Angajamentul Nostru” și „De ce [nume]?”. Întreabă explicit: „Păstrăm această variantă de text sau ce vrei să modificăm?” Revizuiește aici, în conversație, și cere aprobarea versiunii complete curente. Orice revizie anulează aprobarea textului vechi. Nu genera imaginea înainte de această aprobare și nu începe etapa Shopify până când și imaginea este aprobată.
+Titlul comparației este **„De ce [NumeProdus]? 👀”**, cu numele real al produsului și emoji. În câmpul nativ de text de sub titlu scrie **exact două propoziții scurte** care explică esența produsului și cum îl ajută concret pe om. Pune bold numai pe elementele relevante. Cele patru beneficii din rândurile tabelului sunt **foarte scurte, integral cu bold și fiecare cu emoji în față**, fără explicații suplimentare sau punct la final. Exemplu de formatare: **🪟 Curăță adezivul**. Nu adăuga o a doua propoziție sau o descriere lungă în celula beneficiului.
+
+Ordinea pleacă de la problema principală și rezultatul cel mai valoros; urmează reducerea unei consecințe/efortului și beneficii secundare relevante. Folosește română naturală, verbe concrete, emoji relevante, unul sau două enunțuri per bloc și bold pe expresii scurte. Adaptează textul din „Efect Garantat 💯”, cele două propoziții și cele patru criterii din „De ce [NumeProdus]? 👀”. Nu adăuga afirmații noi neverificate în aceste secțiuni.
+
+Prezintă întregul copy într-o versiune completă: nume, titlu, beneficii scurte, toate headlines și paragrafele, „Efect Garantat 💯”, cele două propoziții și tabelul „De ce [NumeProdus]? 👀”. Întreabă explicit: „Păstrăm această variantă de text sau ce vrei să modificăm?” Revizuiește aici, în conversație, și cere aprobarea versiunii complete curente. Orice revizie anulează aprobarea textului vechi. Nu genera imaginea înainte de această aprobare și nu începe etapa Shopify până când și imaginea este aprobată. Pentru o pagină deja implementată, o corecție precisă cerută explicit de proprietar autorizează aplicarea ei; salvează solicitarea ca amendament al versiunii aprobate, fără a cere o nouă confirmare generică.
 
 ## Imaginea principală
 
